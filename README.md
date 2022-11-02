@@ -30,7 +30,7 @@
   - *jauheliha menee huomena vanhaksi.. tee sitä :)*
 
 
-[komentorivi.txt](https://github.com/henniseppis/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+[gitlog.txt](https://github.com/henniseppis/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
 
 
 ![69147221](https://user-images.githubusercontent.com/104835482/199450705-fec19324-52af-4bb7-9682-1273f3ce5c57.jpg)
