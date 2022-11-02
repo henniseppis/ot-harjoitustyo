@@ -14,7 +14,7 @@
 ## Työt:
 
 ###### Jäljellä olevat lomapäivät:
-  - *Sovi Viivin kanssa millon pidän mun 3 unohtunutta lomapäivää*
+  - *Sovi esimiehen kanssa millon pidän mun 3 unohtunutta lomapäivää*
 ###### Muutokset:
   - *Tsekkaa mitä muutoksia on tapahtunut viime työpäivästä*
 ###### Tauot:
@@ -24,10 +24,10 @@
 ## Koti:
 
 ###### Siivous:
-  - *imuroi*
-  - *siivoa keittiö*
+  - *Imuroi*
+  - *Siivoa keittiö*
 ###### Ruoka:
-  - *jauheliha menee huomena vanhaksi.. tee sitä :)*
+  - *Jauheliha menee huomena vanhaksi.. tee sitä :)*
 
 
 [gitlog.txt](https://github.com/henniseppis/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
