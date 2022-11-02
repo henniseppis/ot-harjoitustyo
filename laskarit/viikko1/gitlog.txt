@@ -1,0 +1,114 @@
+hennisep@lx2-fuxi311:~/ot_viikko1/tiedostoja$ git log --stat | cat
+commit 9d8f91aaddc2e5ab38b8266efa223d1d381c3ff7
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 20:00:30 2022 +0200
+
+    poistettii file1 ja nimettiin file2 uudestaan
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit b027a5b427e359434eac46c0ca5b60ca182b67c0
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 19:56:02 2022 +0200
+
+    luotiin hakemisto tiedostoja ja lisättiin sinne 3 tiedostoa
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit d7dce0e7aaecc86d2c1a59b153211e60e14bd929
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 19:33:15 2022 +0200
+
+    poistettiin tiedostosta eka.txt tietokurssin pituudesta ja lisättiin muistutus omasta lumilaudasta. Kirjoitettiin myös lisää tiistai päivän ajatuksia kansioon
+
+ eka.txt    | 2 +-
+ kolmas.txt | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 82e08d7a8d4c2094107afc92cd06c9578792a487
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 19:23:29 2022 +0200
+
+    vaihdettiin tiedosto.txt nimeksi eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ toinen.txt              | 1 -
+ 2 files changed, 1 deletion(-)
+
+commit fcdd600adcd5426b018b27207f25fdb39bf223a5
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 19:20:17 2022 +0200
+
+    poistettiin viimeinen lause ja lisättiin tieto siitä, että kurssi on ilmainen
+
+ tiedosto.txt | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit 9f5e5c4bb26d9baa090aa65f04d356c9630e4d73
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 19:17:38 2022 +0200
+
+    lisättiin lumilautaohjaajakurssin kuvaus
+
+ tiedosto.txt | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 6722505fc0d7f9791dde21bd6b716a06eab19372
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 18:57:21 2022 +0200
+
+    Luotiin hakemisto stuff ja lisättiin sinne  tiedosto smiley_face.txt
+
+ stuff/smiley_face.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1900f44998d76af2a5adeb448c46579cb96cf362
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 18:54:35 2022 +0200
+
+    Muokattiin kolmas.txt
+
+ kolmas.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 202ac4a840e3a6ce394d7c2fad6ce25472badebf
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 18:53:16 2022 +0200
+
+    Lisättiin tekstiä toinen.txt
+
+ toinen.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 1c05968628bd7f4125f2b137749471cc77b77829
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 18:50:00 2022 +0200
+
+    tiedosto kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 347773bbdb92ab35c686823b810e1d9eb8b97f9a
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 18:43:20 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit ff5a3c06a93b09651b29e9d5a6e4c619a0320706
+Author: Henni Seppänen <henni.seppanen@gmail.com>
+Date:   Tue Nov 1 18:36:54 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
