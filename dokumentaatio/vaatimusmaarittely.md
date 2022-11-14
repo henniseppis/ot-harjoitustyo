@@ -1,22 +1,32 @@
 # **VAATIMUSMÄÄRITTELY OHTE-HARJOITUSTYÖ**
 
-## Sovelluksen tarkoitus  
+## Sovelluksen idea  
 Sovellukseni "I want it, I got it... but when" on rahan säästämiseen keskittynyt sovellus. 
 
 ## Käyttäjät
-Käyttäjä luo itselleen tilin, johon kirjautumalla pystyy hallinnoimaan omia säästökohteita tai lisätä niitä. 
+Käyttäjä laatua on vain yksi eli perus käyttäjä
 
 ## Sovelluksen tarjoamat toiminnot ja toiminta pähkinänkuoressa
 
   - Uusi käyttäjä luo tunnuksen, ja kirjautuu sisään.  
   - Käyttäjä lisää yhden tai useamman kohteen johon haluaa säästää rahaa sekä kuinka paljon tämä esine/asia kustantaa ( Esim. Lumilauta 500e)  
-  - Käyttäjä määrittelee X-summan, jonka on valmis pistämään sivuun joka kuukausi. Kyseistä summaa voi halutessaan muokata
+  - Käyttäjä määrittelee X-summan, jonka on valmis pistämään sivuun joka kuukausi kyseistä asiaa varten. Summaa voi halutessaan muokata
   - Sovellus laskee kuinka monta kuukautta käyttäjällä kuluu, jotta saa ostettua haluamansa asian  
-  - Jos säästökohteita on monia, lasketaan aikaarvio säästkökohteiden yhteissummasta tai vaihtoehtoisesti  käyttäjä voi määritellä yksilölliset summat per asia. Esim. "Lumilauta 500e säästöön 25e/kk " , "Sohva 1000e säästöön 150e/kk"
+  - Jos säästökohteita on monia lasketaan yksilölliset summat per asia. Esim. "Lumilauta 500e säästöön 25e/kk " , "Sohva 1000e säästöön 150e/kk"
 
-## Sovelluksen ulkoasu
-  - Kirjautumis-näkymä. Perus käyttäjänimi + salasana
-  - 
+## Sovelluksen eri sivut
+  ##### Kirjautumis-näkymä 
+  - Kysytään käyttäjänimi + salasana sekä mahdollisuus luoda tili
+   - Jos pitää luoda uusi käyttäjätili niin luodaan yksilöllinen käyttäjänimi sekä salasana.
+  ##### Säästötavoitteet- sivu (Main page)
+  - Kirjautumisen jälken avautuu sivu, jossa näkyy kaikki jo määritellyt säästötavoitteet (toki jos on juuri luonu käyttäjän niitä on luonnollisesti 0) sekä voi luoda uuden säästökohteen
+  - Ajatuksena, että tällä sivulla näkyisi riveittäin " Kohteen nimi, summa, kuukausisäästötavoite, kuukausien määrä targettiin puolikkaiden kuukausien tarkkuudella"
+  -Esim. "Lumilauta     500e     50e     10kk"
+  ##### Luo säästökohde- sivu
+  Uuden säästökohteen luonnissa kysytään (ainakin) seuraavia asioita
+      -Säästökohteen nimi
+      -Säästökohteen hinta
+      -Kuukasittainen säästöön pistettävä summa kyseiselle asialle
 
 ## Jatkokehitysideoita
 
