@@ -29,6 +29,8 @@
 ###### Ruoka:
   - *Jauheliha menee huomena vanhaksi.. tee sitä :)*
 
+[Sovelluksen vaatimusmäärittely](https://github.com/henniseppis/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+
 
 [gitlog.txt](https://github.com/henniseppis/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)  
 
