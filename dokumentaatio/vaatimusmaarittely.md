@@ -1,10 +1,10 @@
 # **VAATIMUSMÄÄRITTELY OHTE-HARJOITUSTYÖ**
 
 ## Sovelluksen idea  
-Sovellukseni "I want it, I got it... but when" on rahan säästämiseen keskittynyt sovellus. 
+Sovellukseni "I want it, I got it... but when" on rahan säästämiseen kannustava sovellus. 
 
 ## Käyttäjät
-Käyttäjä laatua on vain yksi eli perus käyttäjä
+Käyttäjä laatua on vain yksi eli peruskäyttäjä
 
 ## Sovelluksen tarjoamat toiminnot ja toiminta pähkinänkuoressa
 
@@ -14,19 +14,19 @@ Käyttäjä laatua on vain yksi eli perus käyttäjä
   - Sovellus laskee kuinka monta kuukautta käyttäjällä kuluu, jotta saa ostettua haluamansa asian  
   - Jos säästökohteita on monia lasketaan yksilölliset summat per asia. Esim. "Lumilauta 500e säästöön 25e/kk " , "Sohva 1000e säästöön 150e/kk"
 
-## Sovelluksen eri sivut
+## Sovelluksen eri näkymät
   ##### Kirjautumis-näkymä 
-  - Kysytään käyttäjänimi + salasana sekä mahdollisuus luoda tili
+  - Kysytään käyttäjänimi + salasana sekä tässä kohtaa on mahdollisuus tilin luomiseen
    - Jos pitää luoda uusi käyttäjätili niin luodaan yksilöllinen käyttäjänimi sekä salasana.
-  ##### Säästötavoitteet- sivu (Main page)
-  - Kirjautumisen jälken avautuu sivu, jossa näkyy kaikki jo määritellyt säästötavoitteet (toki jos on juuri luonu käyttäjän niitä on luonnollisesti 0) sekä voi luoda uuden säästökohteen
+  ##### Säästötavoitteet- näkymä (Main page)
+  - Kirjautumisen jälken avautuu sivu, jossa näkyy kaikki jo määritellyt säästötavoitteet (toki jos on juuri luonut käyttäjän niitä on luonnollisesti vielä tässä vaiheessa 0) sekä voi luoda uuden säästökohteen
   - Ajatuksena, että tällä sivulla näkyisi riveittäin " Kohteen nimi, summa, kuukausisäästötavoite, kuukausien määrä targettiin puolikkaiden kuukausien tarkkuudella"
   -Esim. "Lumilauta     500e     50e     10kk"
-  ##### Luo säästökohde- sivu
-  Uuden säästökohteen luonnissa kysytään (ainakin) seuraavia asioita
-      -Säästökohteen nimi
-      -Säästökohteen hinta
-      -Kuukasittainen säästöön pistettävä summa kyseiselle asialle
+  ##### Luo säästökohde- näkymä
+  - Uuden säästökohteen luonnissa kysytään (ainakin) seuraavia asioita
+      - Säästökohteen nimi
+      - Säästökohteen hinta
+      - Kuukasittainen säästöön pistettävä summa kyseiselle asialle
 
 ## Jatkokehitysideoita
 
