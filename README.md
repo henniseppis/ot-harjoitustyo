@@ -29,6 +29,9 @@
 ###### Ruoka:
   - *Jauheliha menee huomena vanhaksi.. tee sitä :)*
 
+
+[Työaikakirjanpito](https://github.com/henniseppis/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
+
 [Sovelluksen vaatimusmäärittely](https://github.com/henniseppis/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 
