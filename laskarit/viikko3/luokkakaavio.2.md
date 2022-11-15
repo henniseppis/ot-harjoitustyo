@@ -17,10 +17,10 @@
       class Players
       class Dices
       class Squares
-      Squares: + Start
-      Squares: + Prison
-      Squares: + Coincidence & TogetherLand
-      Squares: + Station & Institute
+      Squares: + Start()
+      Squares: + Prison()
+      Squares: + Coincidence & TogetherLand()
+      Squares: + Station & Institute()
       class Street
       
       
