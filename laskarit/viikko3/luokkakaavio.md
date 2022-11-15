@@ -14,4 +14,3 @@
       class Squares
       class Man
          
-
