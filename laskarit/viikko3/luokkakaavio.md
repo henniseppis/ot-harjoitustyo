@@ -1,16 +1,15 @@
  ```mermaid
  classDiagram
-      Players "*" --> "2-8" Board
-      Man "*" --> "1" Players
-      Man "*" --> "1" Square
-      Squares "*" --> "40" Board
-      Man"*" --> "1" Squares
-      Dices"*" --> "2" Board
+      Board "1" -- "1" Game
+      Players "2-8" -- "1" Game
+      Man "1" --> "1" Players
+      Man "1" --> "1" Squares
+      Squares "40" -- "1" Board
+      Dices"2" -- "1" Game
       class Game
       class Board
       class Players
       class Dices
-      class Streets
       class Squares
       class Man
          
