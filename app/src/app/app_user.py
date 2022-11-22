@@ -14,10 +14,4 @@ class User:
             else:
                 print("Username already in use, please choose another one")
     
-    def delete_user(self, user_name):
-        if user_name in self.users:
-            
-
-sovellus = User()
-sovellus.add_user()
-sovellus.add_user()
+        

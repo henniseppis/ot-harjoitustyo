@@ -18,7 +18,7 @@ class Testtext_interface(unittest.TestCase):
         self.assertEqual(test, "10 months")
     
     def test_read_nothing_inside(self):
-        with open(self.test_class.file, "w" ) as file:
+        with open(self.test_class.file, "a" ) as file:
             pass
 
         test = self.test_class.read()
