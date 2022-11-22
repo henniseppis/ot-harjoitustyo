@@ -7,5 +7,5 @@
   - Sain tehtyä hieman tekstikäyttöliittymää (2h)
 
 ##### Maanantai 22.11.2022
-  - Tekstikäyttöliittymän jatkaminen, 3 testin luominen (4h)
+  - Tekstikäyttöliittymän jatkaminen, 3 testin luominen, invoke käskyt (7h)
 
