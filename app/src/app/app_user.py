@@ -1,7 +1,7 @@
 class User:
     def __init__(self):
         self.users = {}
-    
+
     def add_user(self):
         while True:
             user_name = str(input("Choose username: "))
@@ -13,5 +13,3 @@ class User:
                 break
             else:
                 print("Username already in use, please choose another one")
-    
-        

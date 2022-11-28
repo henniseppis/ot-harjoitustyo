@@ -1,51 +1,45 @@
-from tkinter import Tk, ttk, constants
+import tkinter
+from tkinter import Tk, ttk
+from tkinter import messagebox
 
-class UI:
-    def __init__(self, root):
-        self._root = root
+def main_screen():
+    window = Tk()
+    window.title("I want it I got it.. but when?")
+    window.geometry("300x450")
+    window.configure(bg= "lightgrey")
 
-    def start(self):
-        heading_label = ttk.Label(master=self._root, text="Log in or create a new account :)")
+    def login():
+        username = "hennzzu"
+        password = "jeejee"
+        if username_entry.get()==username and password_entry.get()==password:
+            messagebox.showinfo(title="log in success", message="You succeffully logged in")
+        else:
+            messagebox.showerror(title="Error", message="Invalid login")
 
-        username_label = ttk.Label(master=self._root, text="Username")
-        username_entry = ttk.Entry(master=self._root)
 
-        password_label = ttk.Label(master=self._root, text="Password")
-        password_entry = ttk.Entry(master=self._root)
+    frame = tkinter.Frame(bg = "lightgrey")
 
 
-        heading_label.grid(row=0, column=2, columnspan=2)
-        username_label.grid(row=2, column=0, columnspan=1)
-        username_entry.grid(row=3, column=0, columnspan=1)
+    #tekstit
+    login_label= tkinter.Label(frame, text="Login :)", bg = "lightgrey", font = ("Calibri", 30))
+    username_label = tkinter.Label(frame, text="Username", bg= "lightgrey", font = ("Calibri", 15))
+    username_entry = tkinter.Entry(frame, font = ("Calibri", 15))
+    password_entry = tkinter.Entry(frame, show="*", font = ("Calibri", 15))
+    password_label = tkinter.Label(frame, text= "Password", bg = "lightgrey", font = ("Calibri", 15))
+    login_button = tkinter.Button(frame, text = "Login", bg ="lightblue", font = ("Calibri", 15), command = login)
 
-        password_label.grid(row=2, column=4, columnspan=2)
-        password_entry.grid(row=3, column=4, columnspan=2)
-    
+    #näytöllä
 
-    def all_targets(self):
-        heading_label = ttk.Label(master=self._root, text="All items")
+    login_label.grid(row=0, column=2, columnspan=2, sticky="news", pady=40)
+    username_label.grid(row=1, column=0)
+    username_entry.grid(row=1, column=2, pady = 20)
+    password_label.grid(row=2,column=0)
+    password_entry.grid(row=2, column=2, pady = 20)
+    login_button.grid(row=3, column=2, columnspan=2, pady = 30)
 
-        with open("saastokohteet.csv") as file:
-            row = 1
-            for file_row in file:
-                file_row = file_row.replace("\n", "")
-                piece = file_row.split(";")
+    frame.pack()
 
-                id = piece[0]
-                item = piece[1]
-                price = piece[2]
-                save_per_month = piece[3]
-                target_label = ttk.Label(master=self._root, text= f"{id} {item} {price} {save_per_month}")
-                target_label.grid(row=row, column=2)
-                row += 1
-
-        heading_label.grid(row=0, column=2, columnspan=2)
-
-window = Tk()
-window.title("I want it I got it.. but when")
-window.geometry("600x300")
-
-ui = UI(window)
-ui.all_targets()
-
-window.mainloop()
+    window.mainloop()
+     
+        
+main_screen()
