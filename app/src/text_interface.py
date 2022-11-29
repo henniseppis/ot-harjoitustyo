@@ -5,8 +5,7 @@ from datetime import timedelta
 
 
 class Functionality:
-    id = 0
-
+    id=0
     def __init__(self):
         self.file = "saastokohteet.csv"
         self.list = []
@@ -17,7 +16,7 @@ class Functionality:
         sum = input(
             "What is the amount you are ready to put aside every month?: ")
         self.creation_date = date.today()
-        Functionality.id += 1
+        Functionality.id+=1
         with open(self.file, "a") as file:
             row = f"{self.id};{self.creation_date};{item};{price};{sum}"
             file.write(row+"\n")
@@ -43,6 +42,7 @@ class Functionality:
     def result(self, id):
         self.read()
         target = self.list[id-1]
+        print(self.list)
         months1 = math.floor(int(target[3])/int(target[4]))
         date_today = date.today()
         months_left = months1 - ((int(date_today.month + date_today.year*12)) - (int(target[1][5:7]) + (int(target[1][0:4])*12)))
@@ -61,8 +61,3 @@ class Functionality:
         with open(self.file, "w") as file:
             pass
         return "There's nothing you are saving for atm"
-
-
-luokka = Functionality()
-print(luokka.result(2))
-

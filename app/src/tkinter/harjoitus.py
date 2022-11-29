@@ -15,9 +15,9 @@ def main_screen():
         username = "hennzzu"
         password = "jeejee"
         if username_entry.get()==username and password_entry.get()==password:
-            messagebox.showinfo(title="You are in", message="You succeffully logged in")
+            messagebox.showinfo(title="You are in", message="Success")
         else:
-            messagebox.showerror(title="Oh no", message="Invalid login")
+            messagebox.showerror(title="Oh no", message="invalid username or password")
 
     frame = tkinter.Frame(bg = "lightgrey")
 

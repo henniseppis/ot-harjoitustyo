@@ -12,7 +12,7 @@ class Testtext_interface(unittest.TestCase):
 
     def test_result(self):
         with open(self.test_class.file, "a") as file:
-            row = f"1;Lumilauta;500;50"
+            row = f"1;2022-11-29;Lumilauta;500;50"
             file.write(row+"\n")
 
         test = self.test_class.result(1)
