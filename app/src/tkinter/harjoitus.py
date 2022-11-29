@@ -2,6 +2,9 @@ import tkinter
 from tkinter import Tk, ttk
 from tkinter import messagebox
 
+
+
+
 def main_screen():
     window = Tk()
     window.title("I want it I got it.. but when?")
@@ -12,10 +15,9 @@ def main_screen():
         username = "hennzzu"
         password = "jeejee"
         if username_entry.get()==username and password_entry.get()==password:
-            messagebox.showinfo(title="log in success", message="You succeffully logged in")
+            messagebox.showinfo(title="You are in", message="You succeffully logged in")
         else:
-            messagebox.showerror(title="Error", message="Invalid login")
-
+            messagebox.showerror(title="Oh no", message="Invalid login")
 
     frame = tkinter.Frame(bg = "lightgrey")
 
@@ -27,6 +29,7 @@ def main_screen():
     password_entry = tkinter.Entry(frame, show="*", font = ("Calibri", 15))
     password_label = tkinter.Label(frame, text= "Password", bg = "lightgrey", font = ("Calibri", 15))
     login_button = tkinter.Button(frame, text = "Login", bg ="lightblue", font = ("Calibri", 15), command = login)
+    #register_button = tkinter.Button(frame, text = "Register", bg ="lightblue", font = ("Calibri", 15), command = register_window)
 
     #näytöllä
 
@@ -36,10 +39,16 @@ def main_screen():
     password_label.grid(row=2,column=0)
     password_entry.grid(row=2, column=2, pady = 20)
     login_button.grid(row=3, column=2, columnspan=2, pady = 30)
+    #register_button.grid(row=4, column=2, columnspan=2, pady = 30)
 
     frame.pack()
 
+
     window.mainloop()
+
+#def register_window():
+
+    
      
         
 main_screen()

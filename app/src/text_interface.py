@@ -18,7 +18,7 @@ class Functionality:
             "What is the amount you are ready to put aside every month?: ")
         self.creation_date = date.today()
         Functionality.id += 1
-        with open(self.file, "w") as file:
+        with open(self.file, "a") as file:
             row = f"{self.id};{self.creation_date};{item};{price};{sum}"
             file.write(row+"\n")
         print("New target added well done!")
@@ -43,13 +43,16 @@ class Functionality:
     def result(self, id):
         self.read()
         target = self.list[id-1]
-        months = math.floor(int(target[2])/int(target[3]))
+        months1 = math.floor(int(target[3])/int(target[4]))
         date_today = date.today()
-        months_left = (date_today.month + date_today.year*12) - (self.creation_date.month + self.creation_date.year * 12)
-        if months > 12:
-            years, months = divmod(months, 12)
-            return f"{years} years and {months} months"
-        return f"{months} months"
+        months_left = months1 - ((int(date_today.month + date_today.year*12)) - (int(target[1][5:7]) + (int(target[1][0:4])*12)))
+        if months_left > 12:
+            years, months_left = divmod(months_left, 12)
+            if months_left > 1:
+                return f"{years} years and {months_left} months"
+            else:
+                return f"{years} years and {months_left} month"
+        return f"{months_left} months"
     
 
 
@@ -61,4 +64,5 @@ class Functionality:
 
 
 luokka = Functionality()
-luokka.delete_all()
+print(luokka.result(2))
+
