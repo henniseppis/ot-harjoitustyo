@@ -11,3 +11,8 @@
   - Parannuksia tekstikäyttöliittymään (esim. unohtunut luonti päivämäärä)
   - Login- näkymä saatu tehtyä Tkinterillä, mutta siitä ei pääse vielä eteenpäin
   - SQL-tietokannan muistiin palauttamista,jotta saisin rekistöröitymisen onnistumaan
+
+
+##### VIIKKO5
+  - Vähän ongelmia vielä SQL-kanssa, mutta sain mahdollisesti tehtyä oikeanlaiset alustukset
+  - Login-näkymä laitettu starttiin, ei pääse vielä eteenpäin, mutta ilmoittaa onko tunnarit oikeat vai väärät (1 käyttäjä kovakoodattu sinne)
