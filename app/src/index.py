@@ -1,5 +1,5 @@
 from tkinter import Tk
-from UI.harjoitus import Login_view
+from UI.login_view import Login_view
 
 def main():
     window = Tk()
