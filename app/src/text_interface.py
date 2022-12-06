@@ -5,10 +5,10 @@ from datetime import timedelta
 
 
 class Functionality:
-    id=0
     def __init__(self):
         self.file = "saastokohteet.csv"
         self.list = []
+        self.id = 0
 
     def create(self):
         item = input("What you are saving money for?: ")
@@ -16,11 +16,11 @@ class Functionality:
         sum = input(
             "What is the amount you are ready to put aside every month?: ")
         self.creation_date = date.today()
-        Functionality.id+=1
+        self.id += 1
         with open(self.file, "a") as file:
             row = f"{self.id};{self.creation_date};{item};{price};{sum}"
             file.write(row+"\n")
-        print("New target added well done!")
+        return "New target added well done!"
 
     def read(self):
         with open(self.file) as file:
@@ -38,6 +38,12 @@ class Functionality:
 
             if self.list == []:
                 return "There's nothing you are saving for atm"
+            else:
+                names = []
+                for i in range(len(self.list)):
+                    names.append(self.list[i][2])
+                return names
+                    
 
     def result(self, id):
         self.read()
@@ -61,3 +67,6 @@ class Functionality:
         with open(self.file, "w") as file:
             pass
         return "There's nothing you are saving for atm"
+
+luokka = Functionality()
+print(luokka.read())

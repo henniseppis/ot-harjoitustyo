@@ -248,7 +248,7 @@ python-dotenv = ">=0.9.1"
 name = "python-dotenv"
 version = "0.21.0"
 description = "Read key-value pairs from a .env file and set them as environment variables"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -290,7 +290,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "b76847da2f7cfb1d39324fa8931e271cee83fdd0da757e2d39b647a391822b10"
+content-hash = "c3ed01568758ba97b4d51eb5744b494fc558a59d3d49ba1b92c7dbd8c7e81ab6"
 
 [metadata.files]
 astroid = [

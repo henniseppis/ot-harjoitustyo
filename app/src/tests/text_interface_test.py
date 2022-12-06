@@ -24,3 +24,5 @@ class Testtext_interface(unittest.TestCase):
 
         test = self.test_class.read()
         self.assertEqual(test, "There's nothing you are saving for atm")
+
+    
