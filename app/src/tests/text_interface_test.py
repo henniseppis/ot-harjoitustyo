@@ -16,7 +16,7 @@ class Testtext_interface(unittest.TestCase):
             file.write(row+"\n")
 
         test = self.test_class.result(1)
-        self.assertEqual(test, "10 months")
+        self.assertEqual(test, "9 months")
 
     def test_read_nothing_inside(self):
         with open(self.test_class.file, "a") as file:
