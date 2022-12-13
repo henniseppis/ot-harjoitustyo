@@ -16,3 +16,12 @@
 ##### VIIKKO5
   - Vähän ongelmia vielä SQL-kanssa, mutta sain mahdollisesti tehtyä oikeanlaiset alustukset
   - Login-näkymä laitettu starttiin, ei pääse vielä eteenpäin, mutta ilmoittaa onko tunnarit oikeat vai väärät (1 käyttäjä kovakoodattu sinne)
+
+
+##### VIIKKO6
+  - Testejä lisää
+  - Tkinterillä tehty ikkuna, jossa tulee näkymään käyttäjän säästökohteet ja että niihin voi lisätä kohteita
+  - Aloitin docstring- dokumentaation text_interface.py tiedostoon.
+  - Aloitin erottelemaan koodia, jotta yksi funktio ei tekisi niin paljon asioita eli pitäisi saada 1juttu per funktio
+  - Sain ensiksi toimimaan ID lisäyksen CSV - tiedostoihin, mutta herjaa "pandas" modulista. pitää fixata
+  
