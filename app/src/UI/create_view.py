@@ -1,25 +1,27 @@
 import tkinter
 from tkinter import Tk, ttk
-from tkinter import messagebox
 
 class Create:
-    def main_screen():
-        window = Tk()
-        window.title("Create")
-        window.geometry("650x200")
-        window.configure(bg= "lightgrey")
 
-        frame = tkinter.Frame(bg = "lightgrey")
+    """Luodaan säästökohteita """
+
+    def top_screen():
+        window2 = Tk()
+        window2.title("Create")
+        window2.geometry("650x200")
+        window2.configure(bg= "lightgrey")
+
+        frame2 = tkinter.Frame(bg = "lightgrey")
 
         #tekstit
-        item_label= tkinter.Label(frame, text="What are you saving money for?: ", bg = "lightgrey", font = ("Calibri", 12))
-        item_label_entry = tkinter.Entry(frame, font = ("Calibri", 15))
+        item_label= tkinter.Label(frame2, text="What are you saving money for?: ", bg = "lightgrey", font = ("Calibri", 12))
+        item_label_entry = tkinter.Entry(frame2, font = ("Calibri", 15))
 
-        price_label= tkinter.Label(frame, text="How much does it cost?: ", bg = "lightgrey", font = ("Calibri", 12))
-        price_label_entry = tkinter.Entry(frame, font = ("Calibri", 15))
+        price_label= tkinter.Label(frame2, text="How much does it cost?: ", bg = "lightgrey", font = ("Calibri", 12))
+        price_label_entry = tkinter.Entry(frame2, font = ("Calibri", 15))
         
-        sum_label= tkinter.Label(frame, text="What is the amount you are ready to put aside every month?: ", bg = "lightgrey", font = ("Calibri",12))
-        sum_label_entry = tkinter.Entry(frame, font = ("Calibri", 15))
+        sum_label= tkinter.Label(frame2, text="What is the amount you are ready to put aside every month?: ", bg = "lightgrey", font = ("Calibri",12))
+        sum_label_entry = tkinter.Entry(frame2, font = ("Calibri", 15))
 
         #näytöllä
         item_label.grid(row=0, column = 1 ,sticky="news", pady=15)
@@ -31,9 +33,6 @@ class Create:
         sum_label.grid(row=2, column = 1 ,sticky="news", pady=15)
         sum_label_entry.grid(row=2, column=2, pady = 15)
 
+        frame2.pack()
 
-        frame.pack()
-
-
-        window.mainloop() 
-    main_screen()
+        window2.mainloop()

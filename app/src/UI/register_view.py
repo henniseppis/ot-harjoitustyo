@@ -3,6 +3,7 @@ from tkinter import Tk, ttk
 from tkinter import messagebox
 
 class Register_w:
+
     def main_screen():
         window = Tk()
         window.title("New user")
@@ -10,8 +11,6 @@ class Register_w:
         window.configure(bg= "lightgrey")
 
         frame = tkinter.Frame(bg = "lightgrey")
-
-        
             
 
         #tekstit

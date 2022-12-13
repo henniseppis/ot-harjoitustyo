@@ -5,12 +5,15 @@ from datetime import timedelta
 
 class Functionality:
 
+    """ Säästökohteisiin liittyviä toimenpiteitä käsittelevä luokka"""
+
     def __init__(self):
         self.file = "targets.csv"
         self.list = []
         self.id = 0
     
     #def get_id(self):
+    # """Luodaan säästökohteelle id, sen perusteella monesko kohde on. Ei toimi joten kommentteina"""
     #    try:
     #        open = pandas.read_csv(self.file)
     #    except pandas.errors.EmptyDataError:
@@ -19,9 +22,11 @@ class Functionality:
     #        return (len(open)+2)
 
     def create(self):
+        """ Luodaan säästökohteita. Tällä hetkellä kovakoodattu, mutta tavara, hinta ja säästösumma per kk kysytään käyttäjältä"""
+        
         item = "Kahvi"
-        price = "100"
-        sum = "30"
+        price = "350"
+        sum = "35"
         self.creation_date = date.today()
         self.id += 1
         with open(self.file, "a") as file:
@@ -30,6 +35,8 @@ class Functionality:
         return "New target added well done!"
 
     def read(self):
+        """Lukee CSV tiedoston, jossa säästökohteet on säilöttynä"""
+
         with open(self.file) as file:
             for row in file:
                 row = row.replace("\n", "")
@@ -53,6 +60,8 @@ class Functionality:
                     
 
     def result(self, id):
+        """Laskee kuinka kauan menee, jotta kohde saadaan ostettua"""
+
         self.read()
         target = self.list[id-1]
         months1 = math.ceil(int(target[3])/int(target[4]))
@@ -70,6 +79,8 @@ class Functionality:
 
 
     def delete_all(self):
+        """Poistaa kaikki säästökohteet CSV-tiedostosta"""
+
         Functionality.id = 0
         with open(self.file, "w") as file:
             pass
