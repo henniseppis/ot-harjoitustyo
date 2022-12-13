@@ -13,7 +13,7 @@
 
 ### Käskyt
 
-Käynnistys (Ajaa kyllä tällä hetkellä vain säästökohteen lisäyksen eikä muita luokan funktioita)
+Käynnistys 
  - Poetry run invoke start
  
  Testaus 
