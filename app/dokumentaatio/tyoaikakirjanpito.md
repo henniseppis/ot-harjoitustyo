@@ -20,3 +20,8 @@
 ##### Tiistai 6.12.2022 (6h)
     - Register tkinter ja uuden käyttäjän rekisteröinti koodi tehty, mutta pitäisi vielä yhdistää muihin osiin
     - SQL jatkoa
+
+##### Torstai 8.12.2022, Maanantai 12.12.2022, Tiistai 13.12.2022 (Yht. 16h)
+    - Tkinter jatkoa: Ikkuna säästökohteiden syöttämiselle
+    - Aloitin jakamaan text_interface.py tiedoston Repository ja Service tiedostoihin, jotta se on selkeämpi ja lähempänä mallisovelluksen kaltaista
+    - Lisää testejä
