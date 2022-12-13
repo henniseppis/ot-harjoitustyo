@@ -28,8 +28,8 @@ class Create_Database:
     def initialize_database(self):
         connection = get_database_connection()
 
-        self.drop_tables()
-        self.create_tables()
+        self.drop_tables(self.connection)
+        self.create_tables(self.connection)
 
 
 if __name__ == "__main__":

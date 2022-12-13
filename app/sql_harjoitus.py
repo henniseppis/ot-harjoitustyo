@@ -1,10 +1,11 @@
 import sqlite3
-
+from src.database_connection import get_database_connection
 
 class Database:
     def __init__(self) -> None:
         pass
-    with sqlite3.connect("app_users.db") as db:
+
+    with sqlite3.connect("app_users") as db:
         cursor = db.cursor()
 
     db.commit()
@@ -13,7 +14,7 @@ class Database:
         found = 0
         while found == 0:
             username = input("username: ")
-            with sqlite3.connect("app_users.db") as db:
+            with sqlite3.connect("app_users") as db:
                 cursor = db.cursor()
                 finduser = ("SELECT * FROM app_users WHERE username = ?")
                 cursor.execute(finduser, [(username)])

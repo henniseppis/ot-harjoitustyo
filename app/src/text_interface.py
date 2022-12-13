@@ -3,18 +3,25 @@ import math
 from datetime import date
 from datetime import timedelta
 
-
 class Functionality:
+
     def __init__(self):
-        self.file = "saastokohteet.csv"
+        self.file = "targets.csv"
         self.list = []
         self.id = 0
+    
+    #def get_id(self):
+    #    try:
+    #        open = pandas.read_csv(self.file)
+    #    except pandas.errors.EmptyDataError:
+    #        return 1
+    #    else:
+    #        return (len(open)+2)
 
     def create(self):
-        item = input("What you are saving money for?: ")
-        price = input("How much does it cost?: ")
-        sum = input(
-            "What is the amount you are ready to put aside every month?: ")
+        item = "Kahvi"
+        price = "100"
+        sum = "30"
         self.creation_date = date.today()
         self.id += 1
         with open(self.file, "a") as file:
@@ -48,8 +55,7 @@ class Functionality:
     def result(self, id):
         self.read()
         target = self.list[id-1]
-        print(self.list)
-        months1 = math.floor(int(target[3])/int(target[4]))
+        months1 = math.ceil(int(target[3])/int(target[4]))
         date_today = date.today()
         months_left = months1 - ((int(date_today.month + date_today.year*12)) - (int(target[1][5:7]) + (int(target[1][0:4])*12)))
         if months_left > 12:
@@ -59,6 +65,7 @@ class Functionality:
             else:
                 return f"{years} years and {months_left} month"
         return f"{months_left} months"
+        
     
 
 
@@ -68,5 +75,3 @@ class Functionality:
             pass
         return "There's nothing you are saving for atm"
 
-luokka = Functionality()
-print(luokka.read())

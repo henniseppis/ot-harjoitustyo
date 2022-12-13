@@ -1,7 +1,7 @@
 import tkinter
 from tkinter import Tk, ttk
 from tkinter import messagebox
-
+from UI.savings_view import view
 
 class Login_view: 
     def main_screen():
@@ -14,12 +14,16 @@ class Login_view:
             username = "hennzzu"
             password = "jeejee"
             if username_entry.get()==username and password_entry.get()==password:
-                messagebox.showinfo(title="You are in", message="Success")
+                window.destroy()
+                view.main_screen()
+                
             else:
-                messagebox.showerror(title="Oh no", message="invalid username or password")
+                messagebox.showerror(title="Oh no invalid username or password", message="Please have another try or if u are new here press register")
 
         frame = tkinter.Frame(bg = "lightgrey")
 
+        def register():
+            pass
 
         #tekstit
         login_label= tkinter.Label(frame, text="Login :)", bg = "lightgrey", font = ("Calibri", 30))
@@ -42,7 +46,5 @@ class Login_view:
 
         frame.pack()
 
-
-        window.mainloop() 
-
+        window.mainloop()
     main_screen()

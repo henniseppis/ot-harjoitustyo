@@ -1,7 +1,6 @@
 import tkinter
 from tkinter import Tk, ttk
 from tkinter import messagebox
-from sql_harjoitus import 
 
 class Register_w:
     def main_screen():
@@ -12,7 +11,7 @@ class Register_w:
 
         frame = tkinter.Frame(bg = "lightgrey")
 
-        def register():
+        
             
 
         #tekstit

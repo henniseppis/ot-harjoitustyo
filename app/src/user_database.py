@@ -1,14 +1,10 @@
 import sqlite3
+from database_connection import get_database_connection
 
-class New_user:
-    with sqlite3.connect("users_database") as db:
-        cursor = db.cursor()
-    cursor.execute('''CREATE TABLE IF NOT EXISTS users(username VARCHAR NOT NULL, password VARCHAR NOT NULL)''')
-    
-    cursor.execute('''INSERT INTO users (username, password) values ("hennzzu", "blää")''')
-    
-    db.commit()
-    
+class User:
+    def __init__(self):
+        pass 
+
     def new_user():
         found = 0
         while found == 0:
@@ -26,10 +22,9 @@ class New_user:
         data = "INSERT INTO users (username, password) VALUES(?,?)"
         cursor.execute(data, [(username), (password)])
         db.commit()
+   
+    def login():
+        pass
     
-    
-    new_user()
-    cursor.execute("Select * from app_users;")
-    print(cursor.fetchall())
-    
-    
+   
+User().new_user()

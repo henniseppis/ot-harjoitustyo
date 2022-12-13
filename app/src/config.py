@@ -8,5 +8,8 @@ try:
 except FileNotFoundError:
     pass
 
-USERS_FILENAME = os.getenv("USERS_FILENAME") or "database.db"
+USERS_FILENAME = os.getenv("USERS_FILENAME") or "database.sqlite"
 USERS_FILE_PATH = os.path.join(dirname, "..", USERS_FILENAME)
+
+TARGETS_FILENAME = os.getenv("TARGETS_FILENAME") or "targets.csv"
+TARGETS_FILE_PATH = os.path.join(dirname, "..", TARGETS_FILENAME)
