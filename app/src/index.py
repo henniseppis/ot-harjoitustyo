@@ -1,14 +1,8 @@
-from tkinter import Tk
-from UI.login_view import Login_view
-
+from UI.login_view import LoginView
 def main():
-    window = Tk()
-    window.title("I want it I got it...but when?")
 
-    start = Login_view()
+    start = LoginView()
     start.main_screen()
-
-    window.mainloop()
 
 
 if __name__ == "__main__":
