@@ -44,3 +44,6 @@ Näkymä kun säästökohde on lisätty:
 ![](./kuvat/view_säästökohteella.png)
 
 
+Pieni !HUOM!: Sovellus ottaa ylös säästökohteen luomispäivän eli jos tänään lisää kohteen ja heti katsoo kauan on säästetty niin luonnollisesti säästetty summa on 0e ja kuukaudet laskettu sen mukaan kuinka kauan tästä päivästä on jotta saat ostettua kohteen. Jos katsoo esim kuukauden kuluttua on säästetty summa noussut ilmoitetun kuukausisäästösumman verran ja kuukaudet vähentynyt. Kun kuukaudet ovat 0 niin säästökohde häviää view näkymästä.
+
+
