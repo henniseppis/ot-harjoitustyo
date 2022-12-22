@@ -12,6 +12,8 @@ Tulevaisuudessa käyttäjiä monia. Tällä hetkellä vain yhdet toimivat tunnuk
   - Käyttäjä lisää yhden tai useamman kohteen johon haluaa säästää rahaa sekä kuinka paljon tämä esine/asia kustantaa ( Esim. Lumilauta 500e)  
   - Käyttäjä määrittelee X-summan, jonka on valmis pistämään sivuun joka kuukausi kyseistä asiaa varten. Summaa voi halutessaan muokata
   - Sovellus laskee kuinka monta kuukautta käyttäjällä kuluu, jotta saa ostettua haluamansa asian (yläkanttiin)
+  
+  - Pieni !HUOM!: Sovellus ottaa ylös säästökohteen luomispäivän eli jos tänään lisää kohteen ja heti katsoo kauan on säästetty niin luonnollisesti säästetty summa on 0e ja kuukaudet laskettu sen mukaan kuinka kauan tästä päivästä on jotta saat ostettua kohteen. Jos katsoo esim kuukauden kuluttua on säästetty summa noussut ilmoitetun kuukausisäästösumman verran ja kuukaudet vähentynyt.
 
 ## Sovelluksen eri näkymät
   ##### Kirjautumis-näkymä 
