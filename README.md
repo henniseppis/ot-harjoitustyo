@@ -4,6 +4,8 @@
 
 ## Linkit
 
+[Käyttöohje](https://github.com/henniseppis/ot-harjoitustyo/blob/master/app/dokumentaatio/kayttoohje.md)
+
 [Vaatimusmäärittely](https://github.com/henniseppis/ot-harjoitustyo/blob/master/app/dokumentaatio/vaatimusmaarittely.md)
 
 [Työaikakirjanpito](https://github.com/henniseppis/ot-harjoitustyo/blob/master/app/dokumentaatio/tyoaikakirjanpito.md)
