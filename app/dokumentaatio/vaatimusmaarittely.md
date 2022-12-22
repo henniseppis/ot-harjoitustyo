@@ -32,7 +32,7 @@ Tulevaisuudessa käyttäjiä monia. Tällä hetkellä vain yhdet toimivat tunnuk
   - Yksittäisiä säästökohteita voisi poistaa
 
 
------ Alla olevat luotu ennen aloittamista
+----- Alla olevat kehitysideat luotu ennen aloittamista (vieläkin hyviä)
   - Käyttäjä pystyisi laittamaan myös deadlineja. Esim "Italian reissu kesäkuussa" ja määritellä kuinka paljon siihen mennessä pitää olla säästettynä. Sovellus laskee sitten summan, joka on laitettava sivuun joka kuukausi, jotta päästään tavoitteeseen
   - Perhejako/Ystäväjako eli voidaan laittaa yhteisiä tavotteita sekä määritellä kuinka paljon kukakin on valmis laittamaan sivuun tai jakaa koko summan osallistujien kesken
   - Sovellukseen voisi merkata omat kuukausitulot sekä kuukaisttaiset pakolliset menot jolloin omien menojen seuranta sekä sivuun laitettavan summan määritteleminen helpottuu
