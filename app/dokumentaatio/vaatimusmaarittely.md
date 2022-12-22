@@ -1,4 +1,4 @@
-# **VAATIMUSMÄÄRITTELY OHTE-HARJOITUSTYÖ**
+# **VAATIMUSMÄÄRITTELY**
 
 ## Sovelluksen idea  
 Sovellukseni "I want it, I got it... but when" on rahan säästämiseen kannustava sovellus. 
