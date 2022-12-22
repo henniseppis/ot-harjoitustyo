@@ -17,3 +17,30 @@ password = **jeejee**
 
 
 ![](./kuvat/ss)
+
+
+### Valikko ja eteneminen
+
+
+![](./kuvat/valikko.png)
+
+
+*create*
+ 
+- Luo säästäkohteita
+
+![](./kuvat/lisää.png)
+
+*view*
+
+-Tarkastele säästökohteita ja näe kuinka monta kuukautta/vuotta niiden saamiseksi on + oma jo säästetty summa
+
+Näkymä kun yhtään säästökohdetta ei ole vielä lisätty:
+
+![](./kuvat/view_tyhjänä.png)
+
+Näkymä kun säästökohde on lisätty:
+
+![](./kuvat/view_säästökohteella.png)
+
+
