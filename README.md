@@ -44,7 +44,8 @@ Kuitenkin tarkista ennen etenemistä, että seuraavat asiat tapahtuvat app- kans
 - Jonka jälkeen käynnistys komennolla:  
     - poetry run invoke start
     
- 
+### Käyttäjätunnukset
+- Katso käyttöohje
 
 ### Käskyt
 
