@@ -3,7 +3,7 @@ from csv import *
 from tkinter import *
 from datetime import date
 from tkinter import messagebox
-from Repositories.text_interface import Functionality
+from Services.text_interface import Functionality
 from config import TARGETS_FILE_PATH
 
 class Create:

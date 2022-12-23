@@ -3,7 +3,7 @@ from tkinter import Tk
 from tkinter import messagebox
 from UI.create_view import Create
 from UI.view_view import ViewTargets
-from Repositories.text_interface import Functionality
+from Services.text_interface import Functionality
 
 class View:
 

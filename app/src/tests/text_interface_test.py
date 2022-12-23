@@ -1,6 +1,6 @@
 import unittest
 from datetime import date
-from Repositories.text_interface import Functionality
+from Services.text_interface import Functionality
 
 
 class TestText_interafce(unittest.TestCase):
