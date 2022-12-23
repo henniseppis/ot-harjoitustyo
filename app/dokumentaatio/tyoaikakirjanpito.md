@@ -26,7 +26,7 @@
    - Sovellus toimii jee!
    - Piti ottaa aikamoinen loppukiri ja jouduin muokkaamaan ja poistamaan aika paljon jo tehtyä, jotta sain sovelluksen toimimaan
    - Tiedän, että koodissa on jonkun verran puutteita sekä toimintoja ei ole ns jaoteltu eri tiedostoihin tarpeeksi, mutta en saanut siitä nyt tällä kertaa siistimpää valitettavasti. Olen kuitenkin tyytyväinen siihen, että sovellus toimii haluamallani tavalla.
-    - käyttöohje, arkkitehtuurikuvaus, testikuvaus, repon readme.md sekä nimi päivitetty
+   - käyttöohje, arkkitehtuurikuvaus, testikuvaus, repon readme.md sekä nimi päivitetty
     
 
 ##### Koko projektiin käytetty yhteensä (karkeasti): 60-74h
