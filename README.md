@@ -12,6 +12,8 @@
 
 [Changelog](https://github.com/henniseppis/ot-harjoitustyo/blob/master/app/dokumentaatio/changelog.md)
 
+[Release]()
+
 ### Asennukset
 
 ###### Asenna riippuvuus
