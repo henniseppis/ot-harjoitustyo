@@ -2,11 +2,34 @@
 
 ### Ohjelman käynnistys
 
-Asennetaan riippuvuudet:  
-    - poetry install
+Lataa ensiksi sovellus täältä:
 
-Käynnistys komennolla:  
+[Release](https://github.com/henniseppis/I-want-it-I-got-it...But-when/releases/tag/release)
+
+---
+
+- **!TÄRKEÄ!** kun olet ladannut sovelluksen koneelle avaa kansio terminaalissa ja mene kansioon "app" komennolla:
+
+    - cd app
+    
+     TAI vaihtoehtoisesti:  
+     manuaalisesti ladatun tiedoston kansiossa app kansioon ja vasta sen jälkeen avaa se terminaaliin 
+    
+Kuitenkin tarkista ennen etenemistä, että seuraavat asiat tapahtuvat app- kansiossa ja terminaalissa näyttää kutakuinkin tältä:
+
+![](./kuvat/terminaali.png)
+
+- Asennetaan riippuvuudet:  
+    - poetry install
+ 
+- **!TÄRKEÄ!** Luodaan targets.csv - tiedosto app- kansioon komennolla:
+ 
+    - touch targets.csv
+ 
+- Jonka jälkeen käynnistys komennolla:  
     - poetry run invoke start
+    
+ 
 
 ### Kirjautuminen
 
