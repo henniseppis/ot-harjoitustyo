@@ -31,7 +31,14 @@ class Create:
             clear()
         
         def get():
-            """Jokaiselle säästökohteelle luodaan ID sen mukaan monesko se on"""
+            """Jokaiselle säästökohteelle luodaan ID sen mukaan monesko se on
+            
+                Args:
+                    
+                    id = yksilöllinen id jokaiselle säästökohteelle
+                    creation_date = säästökohteen luomispäivämäärä
+
+            """
 
             id = Functionality().get_id()
             creation_date = date.today()

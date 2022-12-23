@@ -33,7 +33,13 @@ class ViewTargets:
 
         def months_f():
 
-            """Laskee kuinka monta kuukautta kestää, jotta saa ostettua säästökohteen"""
+            """Laskee kuinka monta kuukautta kestää, jotta saa ostettua säästökohteen
+            
+
+                Args: 
+                    months = kuinka monta kuukautta säästökohteen saamiseen on silloin kun se luodaan
+            """
+
 
             months = math.ceil(int(row[3])/int(row[4]))
             return months
@@ -41,7 +47,11 @@ class ViewTargets:
         def months_left_f():
 
             """Laskee kuinka kauan tänä päivästä on vielä jäljellä jotta  saa ostettua tuotteen
-            
+
+                Args:
+
+                months_left = kertoo kuinka kauan tänäpäivänä on säästökohteen saamiseen 
+
              (vaikuttaa vain jos luomispäivämäärä ja tarkasteltava päivämäärä ovat eri) """
 
             date_today = date.today()
@@ -61,7 +71,12 @@ class ViewTargets:
             return f"{months_left} months left when saving {row[4]}€ a month"
 
         def money_saved():
-            """Laskee kuinka monta kuukautta säästökohteen lisäämisestä on ja sen mukaan myös sen kuinka paljon on jo säästetty """
+            """Laskee kuinka monta kuukautta säästökohteen lisäämisestä on ja sen mukaan myös sen kuinka paljon on jo säästetty
+
+                Args:
+                
+                sum = laskee kuinka paljon on jo säästettynä säästökohteeseen
+             """
             months_left = months_left_f()
             sum = (months_f() - months_left)*int(row[4])            
             return sum

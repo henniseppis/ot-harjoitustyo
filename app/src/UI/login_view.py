@@ -8,6 +8,11 @@ from User import User
 class LoginView:
     """Käyttäjä voi kirjautua sisään. Tällä hetkellä vain yhdet tunnarit toimii """
     def __init__(self):
+
+        """Args:
+            username = käyttäjänimi
+            password = salasana
+            """
         self.username = User().username()
         self.password = User().password()
 
