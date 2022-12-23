@@ -27,9 +27,9 @@
    - Lisää testejä
    
 ##### Tiistai 20.12, Keskiviikko 21.12, Torstai 22.12, Perjantai 23.12 (Yht 25h-30)
-    - Sovellus toimii jee!
-    - Piti ottaa aikamoinen loppukiri ja jouduin muokkaamaan ja poistamaan aika paljon jo tehtyä, jotta sain sovelluksen toimimaan
-    - Tiedän, että koodissa on jonkun verran puutteita sekä toimintoja ei ole ns jaoteltu eri tiedostoihin tarpeeksi, mutta en saanut siitä nyt tällä kertaa parempaa valitettavasti
+   - Sovellus toimii jee!
+   - Piti ottaa aikamoinen loppukiri ja jouduin muokkaamaan ja poistamaan aika paljon jo tehtyä, jotta sain sovelluksen toimimaan
+   - Tiedän, että koodissa on jonkun verran puutteita sekä toimintoja ei ole ns jaoteltu eri tiedostoihin tarpeeksi, mutta en saanut siitä nyt tällä kertaa parempaa valitettavasti
     - käyttöohje, arkkitehtuurikuvaus, testikuvaus, repon readme.md sekä nimi päivitetty
     
 
