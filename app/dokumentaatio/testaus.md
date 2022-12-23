@@ -23,6 +23,10 @@ Käyttäessä sovellusta pystyy testaamaan esimerkiksi seuraavia asioita:
 - Voi testata view näkymää kun mitään säästökohteita ei ole lisätty
 - Voi testata delete all- nappulaa valikosta esimerkiksi . luomalla säästökohteen/-kohteita (tarkasta view että ne näkyvät) sen jälkeen painamalla delete all- nappulaa ja katsoa view näkymää uudestaan
 
+# Loppupalautuksen testaus
+
+- Testasin loppupalautusta ja kaikki toimi! Hieman joutuu normaalia enemmän alustamaan (siirtyä eri kansioon ja luoda csv- tiedosto), mutta laitoin etusivulle sekä käyttöohjeeseen tästä isot maininnat!
+
 
 # Testauksen ulkopuolella
 
