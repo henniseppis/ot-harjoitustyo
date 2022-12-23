@@ -7,13 +7,15 @@ from datetime import date
 from config import TARGETS_FILE_PATH
 
 class ViewTargets:
-    #"""Luokka jonka avulla voi tarkastella olemassa olevia säästökohteita ja joka laskee säästämiseen kuluvan ajan """
+    """Luokka jonka avulla voi tarkastella olemassa olevia säästökohteita ja joka laskee säästämiseen kuluvan ajan """
     def __init__(self):
         self.file = TARGETS_FILE_PATH
         self.targets = []
 
 
     def view_screen(self):
+        """Tkinter ikkuna alustus"""
+
         window = Tk()
         window.title("View Targets")
         window.geometry("")
@@ -21,19 +23,34 @@ class ViewTargets:
 
 
         def create():
+            """Avaa create ikkunan ja samalla sulkee säästökohteiden tarkastelun
+
+            Tätä funktiota kutsutaan vain jos säästökohteiden näkymä on tyhjä ja haluaa lisätä sitä kautta uuden kohteen
+            
+            """
             window.destroy()
             Create().create_target()
 
         def months_f():
+
+            """Laskee kuinka monta kuukautta kestää, jotta saa ostettua säästökohteen"""
+
             months = math.ceil(int(row[3])/int(row[4]))
             return months
 
         def months_left_f():
+
+            """Laskee kuinka kauan tänä päivästä on vielä jäljellä jotta  saa ostettua tuotteen
+            
+             (vaikuttaa vain jos luomispäivämäärä ja tarkasteltava päivämäärä ovat eri) """
+
             date_today = date.today()
             months_left = (months_f()) - ((int(date_today.month + date_today.year*12)) - (int(row[1][5:7]) + (int(row[1][0:4])*12)))
             return months_left
-            
+
         def get_date():
+            """Määritellään oikea muoto, jossa jäljellä oleva aika ilmoitetaan"""    
+
             months_left = months_left_f()
             if months_left > 12:
                 years, months_left = divmod(months_left, 12)
@@ -44,6 +61,7 @@ class ViewTargets:
             return f"{months_left} months left when saving {row[4]}€ a month"
 
         def money_saved():
+            """Laskee kuinka monta kuukautta säästökohteen lisäämisestä on ja sen mukaan myös sen kuinka paljon on jo säästetty """
             months_left = months_left_f()
             sum = (months_f() - months_left)*int(row[4])            
             return sum

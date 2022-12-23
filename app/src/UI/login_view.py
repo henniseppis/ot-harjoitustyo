@@ -2,7 +2,7 @@ import tkinter
 from tkinter import Tk
 from tkinter import *
 from tkinter import messagebox
-from UI.savings_view import View
+from UI.main_view import View
 from User import User
 
 class LoginView:
