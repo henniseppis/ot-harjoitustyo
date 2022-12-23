@@ -16,22 +16,36 @@
 
 [Arkkitehtuurikuvaus](https://github.com/henniseppis/I-want-it-I-got-it...But-when/blob/master/app/dokumentaatio/arkkitehtuurim%C3%A4%C3%A4ritelm%C3%A4.md)
 
-[Loppu Release]()
+## Ohjelman käynnistys
 
-### Asennukset
+Lataa ensiksi sovellus täältä:
 
-###### Asenna riippuvuus
+[Release](https://github.com/henniseppis/I-want-it-I-got-it...But-when/releases/tag/release)
 
-- poetry install
+---
 
+- **!TÄRKEÄ!** kun olet ladannut sovelluksen koneelle avaa kansio terminaalissa ja mene kansioon "app" komennolla:
 
-###### Käynnistä sovellus
+    - cd app
+    
+     TAI vaihtoehtoisesti:  
+     manuaalisesti ladatun tiedoston kansiossa app kansioon ja vasta sen jälkeen avaa se terminaaliin 
+    
+Kuitenkin tarkista ennen etenemistä, että seuraavat asiat tapahtuvat app- kansiossa ja terminaalissa näyttää kutakuinkin tältä:
 
-- poetry run invoke start
+![](./kuvat/terminaali.png)
 
-###### csv - tiedosto
-
-- Luo targets.csv tiedosto, jos se ei ole src kansiossa
+- Asennetaan riippuvuudet:  
+    - poetry install
+ 
+- **!TÄRKEÄ!** Luodaan targets.csv - tiedosto app- kansioon komennolla:
+ 
+    - touch targets.csv
+ 
+- Jonka jälkeen käynnistys komennolla:  
+    - poetry run invoke start
+    
+ 
 
 ### Käskyt
 
