@@ -92,7 +92,7 @@ sequenceDiagram
 Luomisen yhteydessä sovellus tallettaa käyttäjän säästökohteen CSV-tiedostoon.
 
 
-  # Ohjelamn rakenteen heikkoudet
+  # Ohjelman rakenteen heikkoudet
   
   Ohjelma on luotu hieman liian tiiviiksi. Olisi pitänyt erotella eri tiedostoihin eri asioita tekevät funktiot paremmin.
    
