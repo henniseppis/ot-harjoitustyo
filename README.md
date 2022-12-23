@@ -12,6 +12,19 @@
 
 [Changelog](https://github.com/henniseppis/ot-harjoitustyo/blob/master/app/dokumentaatio/changelog.md)
 
+### Asennukset
+
+###### Asenna riippuvuus
+
+- poetry install
+
+###### Alusta ohjelma
+
+- poetry run invoke build
+
+###### Käynnistä sovellus
+
+- poetry run invoke start
 
 ### Käskyt
 
