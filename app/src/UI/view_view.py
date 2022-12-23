@@ -3,7 +3,7 @@ import csv
 import math
 from tkinter import *
 from UI.create_view import Create
-from datetime import date
+from datetime import date, datetime
 from config import TARGETS_FILE_PATH
 
 class ViewTargets:
@@ -74,7 +74,7 @@ class ViewTargets:
             """Laskee kuinka monta kuukautta säästökohteen lisäämisestä on ja sen mukaan myös sen kuinka paljon on jo säästetty
 
                 Args:
-                
+
                 sum = laskee kuinka paljon on jo säästettynä säästökohteeseen
              """
             months_left = months_left_f()
