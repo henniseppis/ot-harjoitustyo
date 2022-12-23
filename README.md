@@ -31,9 +31,8 @@ Lataa ensiksi sovellus täältä:
      TAI vaihtoehtoisesti:  
      manuaalisesti ladatun tiedoston kansiossa app kansioon ja vasta sen jälkeen avaa se terminaaliin 
     
-Kuitenkin tarkista ennen etenemistä, että seuraavat asiat tapahtuvat app- kansiossa ja terminaalissa näyttää kutakuinkin tältä:
+Kuitenkin tarkista ennen etenemistä, että seuraavat asiat tapahtuvat app- kansiossa 
 
-![](./kuvat/terminaali.png)
 
 - Asennetaan riippuvuudet:  
     - poetry install
