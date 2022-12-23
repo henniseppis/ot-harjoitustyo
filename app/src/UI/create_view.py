@@ -50,7 +50,7 @@ class Create:
         
         def check_if_numbers():
             try:
-                if (int(price_label_entry.get()) and int(sum_label_entry.get())) and (int(price_label_entry.get()) >= int(sum_label_entry.get())):
+                if (int(price_label_entry.get()) >= int(sum_label_entry.get())) and (int(price_label_entry.get()) and int(sum_label_entry.get())):
                     get()
             except:
                 messagebox.showerror(title="Error", message= "Please insert numbers to the second and third row. And please provide the price larger than the monthly amount", parent= window)
