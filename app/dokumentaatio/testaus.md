@@ -22,3 +22,8 @@ Käyttäessä sovellusta pystyy testaamaan esimerkiksi seuraavia asioita:
 - Samaisella tavalla samaisessa paikassa päivämäärää muokkaamalla voi testata view näkymässä säästösumman kasvun kuukausittain sekä säästöajan vähenemisen (keskimmäinen ja viimeinen kolumni käyttäjän säästökohteiden tarkastelussa)
 - Voi testata view näkymää kun mitään säästökohteita ei ole lisätty
 - Voi testata delete all- nappulaa valikosta esimerkiksi . luomalla säästökohteen/-kohteita (tarkasta view että ne näkyvät) sen jälkeen painamalla delete all- nappulaa ja katsoa view näkymää uudestaan
+
+
+# Testauksen ulkopuolella
+
+- Aika moni tiedosto jäi unittestin ulkopuolelle ja jää manuaalisen testauksen varaan
