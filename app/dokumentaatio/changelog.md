@@ -23,5 +23,9 @@
   - Tkinterillä tehty ikkuna, jossa tulee näkymään käyttäjän säästökohteet ja että niihin voi lisätä kohteita
   - Aloitin docstring- dokumentaation text_interface.py tiedostoon.
   - Aloitin erottelemaan koodia, jotta yksi funktio ei tekisi niin paljon asioita eli pitäisi saada 1juttu per funktio
-  - Sain ensiksi toimimaan ID lisäyksen CSV - tiedostoihin, mutta herjaa "pandas" modulista. pitää fixata
-  
+  - CSV- tiedosto pelaa muun koodin kanssa
+  - SQL kuopattu
+
+##### VIIKKO7
+  - Sovellus toimii eli tämä ainokainen käyttäjä pystyy lisäämään säästökohteita, tarkastella niitä ja poistaa niitä
+  - loput docstring
