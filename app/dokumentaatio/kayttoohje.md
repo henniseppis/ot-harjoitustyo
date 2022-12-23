@@ -4,7 +4,7 @@
 
 Lataa ensiksi sovellus täältä:
 
-[Release](https://github.com/henniseppis/I-want-it-I-got-it...But-when/releases/tag/release)
+[Release](https://github.com/henniseppis/I-want-it-I-got-it...But-when/releases/tag/FinalReleaese)
 
 ---
 
