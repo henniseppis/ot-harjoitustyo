@@ -1,5 +1,3 @@
 .pytest_cache
 __pycache__
-saastokohteet.csv
-database.db
-sql_harjoitus.py
+targets.csv
